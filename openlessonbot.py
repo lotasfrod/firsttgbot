@@ -46,7 +46,7 @@ def welcome(message):
 
 @bot.message_handler(content_types=['text'])
 def lalala(message):
-    chat = '1350289616'
+    chat = ["message.chat.id"]
     if message.text=="👍":
         bot.send_message(chat, "👍")
     if message.text=="👏":
